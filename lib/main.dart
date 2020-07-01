@@ -1,15 +1,14 @@
-import 'package:flutter/material.dart'; // Includes a lot of stuff (buttons, etc)
+import 'package:flutter/material.dart';
 
-void main() {
-  runApp(MyApp()); // To execute the app
-}
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  // Class "MyApp" inherits the StateLessWidget Class for its functionality.
+  @override
   Widget build(BuildContext context) {
-    // Class "build" return type "Widget"
     return MaterialApp(
-      home: Text('Hello, World!'),
+      home: Scaffold(
+        appBar: AppBar(title:,),
+      ),
     );
   }
 }
